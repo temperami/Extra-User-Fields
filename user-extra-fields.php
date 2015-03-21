@@ -1,8 +1,8 @@
 <?php
 
 // Display Fields 
-add_action( 'show_user_profile', 'fdt_add_custom_user_fields' );
-add_action( 'edit_user_profile', 'fdt_add_custom_user_fields' );
+add_action( 'show_user_profile', 'add_custom_user_fields' );
+add_action( 'edit_user_profile', 'add_custom_user_fields' );
  
 function add_custom_user_fields() {
     ?>
