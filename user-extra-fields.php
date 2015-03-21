@@ -28,7 +28,7 @@ function pv_admin_user_info( $user ) {
 ?>
   <tr>
     <th><label for="vendor_region">The region</label></th>
-    <td><input type="text" name="oras_rest" id="oras_rest" value="<?php echo esc_attr(get_user_meta( $user->ID, 'oras_rest', true )); ?>" class="regular-text"></td>
+    <td><input type="text" name="vendor_region" id="vendor_region" value="<?php echo esc_attr(get_user_meta( $user->ID, 'vendor_region', true )); ?>" class="regular-text"></td>
   </tr>
  
 <?php
